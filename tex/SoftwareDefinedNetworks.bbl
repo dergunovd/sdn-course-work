@@ -1,4 +1,4 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
 \def\selectlanguageifdefined#1{
 \expandafter\ifx\csname date#1\endcsname\relax
 \else\language\csname l@#1\endcsname\fi}
@@ -8,5 +8,71 @@
 \ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
 \ifx\undefined\BibAnnote\def\BibAnnote#1{}\else\fi
 \ifx\undefined\BibSection\def\BibSection#1#2#3{}\else\fi
+
+\bibitem{arccn}
+\selectlanguageifdefined{english}
+\BibTitle{Программно-конфигурируемые сети
+  [{Э}лектронный ресурс]}. "---
+\newblock URL:~\url{http://arccn.ru/sdn} (Дата обращения
+  18.05.2018). Загл. с экр. Яз. рус.
+
+\bibitem{osp}
+\selectlanguageifdefined{english}
+\BibTitle{Программно-конфигурируемые сети
+  [{Э}лектронный ресурс]}. "---
+\newblock URL:~\url{http://www.osp.ru/os/2012/09/13032491} (дата
+  обращения 19.05.2018). Загл. с экр. Яз. рус.
+
+\bibitem{mctrewards}
+\selectlanguageifdefined{english}
+\BibTitle{Технологии
+  программно-конфигурируемых сетей и
+  виртуализации сетевых функций
+  [{Э}лектронный ресурс]}. "---
+\newblock URL:~\url{http://www.mctrewards.ru/texnologii/net} (дата
+  обращения 19.05.2018). Загл. с экр. Яз. рус.
+
+\bibitem{shalaginov}
+\selectlanguageifdefined{english}
+\BibTitle{Что такое программно-конфигурируемые
+  сети и чем они не являются [{Э}лектронный
+  ресурс]}. "---
+\newblock URL:~\url{http://shalaginov.com/2014/07/13/sdn/} (Дата
+  обращения 19.05.2018). Загл. с экр. Яз. рус.
+
+\bibitem{habr}
+\selectlanguageifdefined{english}
+\BibTitle{Программно определяемые сети (Software
+  Defined Networks): настоящее и будущее
+  [{Э}лектронный ресурс]}. "---
+\newblock URL:~\url{https://habr.com/company/hpe/blog/160531/} (дата
+  обращения 25.07.2018). Загл. с экр. Яз. рус.
+
+\bibitem{openflow}
+\selectlanguageifdefined{english}
+\BibTitle{SDN / OpenFlow / Flowgrammable [{Э}лектронный
+  ресурс]}. "---
+\newblock URL:~\url{http://flowgrammable.org/sdn/openflow/} (дата
+  обращения 20.05.2018). Загл. с экр. Яз. рус.
+
+\bibitem{tadviser}
+\selectlanguageifdefined{english}
+\BibTitle{Программно-определяемые сети
+  [{Э}лектронный ресурс]}. "---
+\newblock URL:~\url{http://www.tadviser.ru/index.php/} (дата
+  обращения 22.07.2018). Загл. с экр. Яз. рус.
+
+\bibitem{cgroups}
+\selectlanguageifdefined{english}
+\BibTitle{cgroups [{Э}лектронный ресурс]}. "---
+\newblock URL:~\url{https://ru.wikipedia.org/wiki/Cgroups} (дата
+  обращения 27.07.2018). Загл. с экр. Яз. рус.
+
+\bibitem{mininet}
+\selectlanguageifdefined{english}
+\BibTitle{Mininet Walkthrough [{Э}лектронный ресурс]}. "---
+\newblock
+  URL:~\url{http://mininet.org/walkthrough/#interact-with-hosts-and-switches}
+  (дата обращения 27.07.2018). Загл. с экр. Яз. рус.
 
 \end{thebibliography}
